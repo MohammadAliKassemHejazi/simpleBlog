@@ -5,6 +5,7 @@ function EventList(props) {
   return (
     <ul className={classes.list}>
       {items.map((event) => (
+        
         <Eventitem
           key={event.id}
           id={event.id}
