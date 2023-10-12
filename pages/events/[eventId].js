@@ -5,6 +5,7 @@ import EventLogistics from '../../Components/event-detail/event-logistics';
 import EventSummary from '../../Components/event-detail/event-summary';
 import EventContent from '../../Components/event-detail/event-content';
 import ErrorAlert from '../../Components/error-alert/error-alert'
+import Button from '../../Components/ui/Button'
 
 function EventDetailPage() {
   const router = useRouter();
